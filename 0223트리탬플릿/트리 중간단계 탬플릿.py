@@ -27,7 +27,7 @@ for tc in range(1, T + 1):
             right[p] = int(arr[3])
         elif len(arr) == 3:  # 3글자
             left[p] = int(arr[2])
-    print(data)
+
     print(f"#{tc} ", end="")
     f(1)
     print()
