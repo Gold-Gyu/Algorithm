@@ -45,12 +45,12 @@ for tc in range(1, T+1):
                 ans = "YES"
 
     # 우 대
-    for i in range(N):
-        for j in range(N-1, -1, -1):
-            if visited[i][j] == 1:
-                cnt3 += 1
-                if cnt3 == 5:
-                    ans = "YES"
+    cnt4 = 0
+    for j in range(N-1, -1, -1):
+        if visited[j][j] == 1:
+            cnt4 += 1
+            if cnt4 == 5:
+                ans = "YES"
     pprint(visited)
     print(ans)
 
