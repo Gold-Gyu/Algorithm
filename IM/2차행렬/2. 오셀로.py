@@ -20,7 +20,7 @@
 #         j, i, bw = map(int, input().split())
 #         # 각 방향으로 뒤집을 수 있는 경우 찾기
 #         board[i][j] = bw
-#         for di, dj in 8방향
+#         for di, dj in [[]]
 #             ni, nj = i + di, j + dj
 #             tmp = []        # 다른 색 돌의 좌표 저장
 #             while board[ni][nj] == OP[bw]:
@@ -31,8 +31,8 @@
 #                     board[p][q] = bw
 #
 #     bcnt = wcnt = 0
-#     for i in range(N):
-#         for j in range(N):
+#     for i in range(1, N+1):
+#         for j in range(1, N+1):
 #             if board[i][j] == black:
 #                 bcnt += 1
 #             elif board[i][j] == white:
