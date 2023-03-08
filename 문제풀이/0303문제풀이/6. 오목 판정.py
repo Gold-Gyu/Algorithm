@@ -7,7 +7,6 @@ from pprint import pprint
 # 2.
 
 
-
 T = int(input())
 
 dr = [-1, 0, 1, 1]
