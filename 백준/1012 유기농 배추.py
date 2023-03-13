@@ -15,9 +15,6 @@ def bfs(i, j):
                     visited[nr][nc] = 1
                     q.append((nr, nc))
 
-
-
-
 di = [0, 1, 0, -1]
 dj = [1, 0, -1, 0]
 T = int(input())

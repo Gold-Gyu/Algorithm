@@ -1,0 +1,1 @@
+w, h = map(int, input())
