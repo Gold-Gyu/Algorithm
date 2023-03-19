@@ -17,8 +17,6 @@ def bfs(i, j):
                     visited[nr][nc] = default
                     q.append((nr, nc))
 
-
-
 dr = [0, 1, 0, -1]
 dc = [1, 0, -1, 0]
 
