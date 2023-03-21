@@ -5,6 +5,9 @@
   <h3>{{ article.pk }} 번째 글</h3>
   <hr>
     <p>제목 : {{ article.title }}</p>
+    {% if article.image %}
+        <img src="{{article.image.url}}" alt="">
+    {% endif %}
     <p>내용 : {{ article.content }}</p>
     <p>만든시간 : {{ article.created_at }}</p>
     <p>수정시간 : {{ article.updated_at }}</p>
