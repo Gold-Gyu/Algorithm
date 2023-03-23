@@ -19,7 +19,14 @@
     <a href="{% url 'accounts:login' %}" class="btn btn-primary">login</a>
   {% endif %}
   {% comment %} <img src="{% static 'cat.png' %}" alt=""> {% endcomment %}
-  
+  <a href="{% url 'accounts:signup' %}">회원가입하러가기</a>
+  <a href="{% url 'accounts:update' %}">수정하기</a>
+  <a href="{% url 'accounts:change_password' %}">비밀번호 변경</a>
+  <form action="{% url 'accounts:delete' %}" method="POST">
+    {% csrf_token %}
+    <input type="submit" value="DELETE">
+
+  </form>
   <h2>Hello, {{user}}</h2>
   <hr>
 
