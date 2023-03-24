@@ -69,7 +69,7 @@ def change_password(request):
         form = PasswordChangeForm(request.user, request.POST)
         if form.is_valid():
             form.save()
-            update_session_auth_hash(request, form.user)    #★★★
+            update_session_auth_hash(request, form.user)    #★★★비밀번호변경시 로그인 유지
             return redirect('articles:index')
 
     else:
