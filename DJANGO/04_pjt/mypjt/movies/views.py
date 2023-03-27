@@ -34,7 +34,8 @@ def update(request, pk):
             return redirect("movies:detail", movie.pk)
     else:
         form = MoviesForm(instance=movie)   # 수정할 떄는 기존 데이터를 가지고 form에 넣어서 수정한다
-        context = {"form":form, "movie": movie} # movie의 pk값을 보내줘야하기 때문에 movie값도 context에 넣어준다
+    context = {"form":form,
+               "movie":movie} # movie의 pk값을 보내줘야하기 때문에 movie값도 context에 넣어준다
     return render(request, "movies/update.html", context)
 
 def delete(request, pk):

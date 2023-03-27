@@ -46,7 +46,7 @@ for i in range(M):
             break   # for j
     if flag:
         break
-
+pprint(visited)
 
 print(answer)
 

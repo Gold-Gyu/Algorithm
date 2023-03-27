@@ -1,22 +1,82 @@
-def perm(i, k):
-    
-    if i == k:
-        maxV = 0
-        if maxV < len(p):
-            maxV = len(p)
+"""
+문제 고민시간 : 1시간
+결과 : 해결 못함
+
+나의 접근방법
 
 
-N = int(input())
+1. 정렬없이
+2. 순열을 통해
+3. 모든 경우의 수 체크해서
+4. 가장 많은 회의 갯수를 포함하는 갯수찾기
+
+실패한 원인
+
+1. 다음 회의 시작시간 >= 그 전 회의 끝시간 조건 설정하는데 어려움을 겪음
+2. 순열에 대한 기본 개념 이해 부족
+
+실력을 늘일 방안
+
+0. 두 가지 기준으로 정렬할 때 순서
+    0 - 1. lambda 함
+1. 순열에 대한 기본 지식 습득 (문어박사 유튜브)
+2. 오늘처럼 문제 오답노트
+
+"""
+
+# 문제 풀이
+
+# 가장 많은 회의를 잡기 위해서는 1. 종료시간이 빨리끝나는 것들을 찾아야한다.
+# 단, 종료시간이 같은 경우?
+# 2. 시작 시간이 빠른 쪽을 골라야 한다.
+# 왜?
+# 예를 들어 (시작:5, 끝:7), (시작:7, 끝:7)이면
+# (7, 7)을 고르면 하나만 고르지만 (5, 7)을 고르면 둘 다 회의로 잡을 수 있기 때문이다.
+
+
+
+N = int(input()) # 입력값 받아주기
 
 lst = []    # 각 회의시간 리스트에 담기
 for tc in range(N):
-    start, end = map(int, input().split())
-    lst.append((start, end))
+    start, end = map(int, input().split()) # 시작시간, 끝시간 받아주기
+    lst.append((start, end))    # 리스트에 담아두기
 print(lst)
+# 정렬하기
+# 먼저 시작시간(start)을 오름차순으로 정렬
+# 그 다음 끝 시간(end)를 기준으로 오름차순 정렬
+#   why??
+# 시작시간을 기준으로 먼저 오름차순 정렬을 한 뒤에
+# 끝 시간을 기준으로 다시 오름차순 정렬을 해준다면
+# 끝 시간이 같을 때 시작시간이 더 빠른(더 낮은 숫자) 경우가 뒤로 정렬되어있다.
+# ex) [(1,3), (2,3)]
 
-# 여기서 하나씩 꺼내서 순열돌리기
-num = len(lst)  # 리스트안에 들어가 있는 갯수
-p = [0] * num   # 나타낼 값
-used = [0] * num    # 방문체크
-perm(0, num)
+"""
+정렬 방법 : lambda 함수 사용
+2 차원 요소를 기준으로 정렬할 때
+sorted(list, key=lambda a : a[i])를 사용할 수 있다.
+기준을 여러 개 적용할 때는
+sorted(list, key=lambda a : (a[i], a[j])) => a[i]를 기준으로 정렬한 후 a[j]를 기준으로 정렬한
+
+"""
+ans = sorted(lst, key = lambda a : (a[1], a[0]))    # 시작시간 기준 먼저 정렬 후 끝 시간 기준 정렬
+print(ans)
+
+time = sorted(lst, key = lambda a : a[0])
+print(time)
+time = sorted(lst, key = lambda a : a[1])
+print(time)
+
+last = 0 # 끝나는 회의시간 체크 및 개수 체크
+count = 0
+
+# 모든 경우의 수를 다 돌아보지 않아도 되는 이유
+# 이미 정렬을 해줬기 때문에!!
+for i, j in ans:
+    # print(i,j)
+    if i >= last:
+        count += 1
+        last = j
+
+print(count)
 
