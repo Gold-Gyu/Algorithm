@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0314" />
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0314">
+      <change afterPath="$PROJECT_DIR$/Brute_Force/1. 사전순으로 순열 생성하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brute_Force/2 (사전순 x )재귀 호출을 통한 순열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/2.electric_cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/victor_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/victor_repo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/prices/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/1-1. [minseok].py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/prices/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/prices/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/prices/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/1-2 [minseok2].py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/prices/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/prices/templates/prices/price.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/prices/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/prices/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/project1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/1. [완전탐색]최소합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/project1/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/project1/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/project1/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0315django과제1/project1/project1/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/2-2 [minseok].py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_app/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/1931 회의실배정.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_app/templates/my_app/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_pjt/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_pjt/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_pjt/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_pjt/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/my_pjt/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django 실습1/my_pjt/requirements.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,10 +62,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../python3" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.2606 바이러스">
-    <configuration name="2606 바이러스" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.2-2 [minseok]">
+    <configuration name="1-1. [minseok]" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -37,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/2606 바이러스.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/1-1. [minseok].py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -50,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4963 섬의 개수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1931 회의실배정" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,7 +99,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/4963 섬의 개수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/1931 회의실배정.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1. [완전탐색]최소합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/1. [완전탐색]최소합.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2-2 [minseok]" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/2-2 [minseok].py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2.electric_cart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\SSAFY\Desktop\Goldgit\victor_repo\SWEA\2.electric_cart.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,8 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2606 바이러스" />
-        <item itemvalue="Python.4963 섬의 개수" />
+        <item itemvalue="Python.2-2 [minseok]" />
+        <item itemvalue="Python.1-1. [minseok]" />
+        <item itemvalue="Python.1. [완전탐색]최소합" />
+        <item itemvalue="Python.2.electric_cart" />
+        <item itemvalue="Python.1931 회의실배정" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +217,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0314-2" />
