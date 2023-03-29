@@ -8,9 +8,7 @@ def perm2(cnt): # cnt는?
     # 종료조건
     # 교환횟수를 다 돌렸을 때 최대상금을 구하기
     if cnt == N:
-        ans = int(''.join(S))
-        if maxV < ans:
-            maxV = ans
+        maxV = max(maxV, int(''.join(S)))
         return
 
     # 재귀호출
@@ -33,9 +31,19 @@ for tc in range(1, T+1):
     N = int(N)  # 교환횟수
     maxV = 0
     # 결국 순열의 경우의 수와 같다
-    # 자리를 바꾸는 횟수가 순열의 길이보다 더 커봤자 어차피 중복
+    # 자리를 바꾸는 횟수가 순열의 길이보다 더 크다면
+    # 홀수번 남았다면 내가 이전에 만들어본 숫자 다시 만들 수 있는지 체크
+    # 최대 길이에서 -1 해줘서 구해주면 된다
+    # 짝수번 남았다면 어차피 중복
+
     if N > len(S):
-        N = len(S)
+        # 남은 횟수가 홀수면
+        if (N - len(S)) % 2 == 1:
+            N = len(S) - 1
+        # 남은 횟수가 짝수면
+        else:
+            N = len(S)
+
 
     perm2(0)
     print(f"#{tc} {maxV}")

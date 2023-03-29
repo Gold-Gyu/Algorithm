@@ -1,30 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0314">
-      <change afterPath="$PROJECT_DIR$/Brute_Force/민석썜 순열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/베이비진.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/베이비진.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/정식이의 은행업무.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/정식이의 은행업무.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/최대상금.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/최대상금.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/컨테이너운반 교수님버젼.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/컨테이너운반.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/컨테이너운반.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/화물도크.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/화물도크.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/2573 빙산.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/조합과 부분집합/1. 조합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/조합과 부분집합/바이너리 카운팅 부분집합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/조합과 부분집합/반복문 조합 (r이 고정인경우).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/조합과 부분집합/재귀를 통한 조합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/victor_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/victor_repo.iml" afterDir="false" />
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0328">
+      <change afterPath="$PROJECT_DIR$/SWEA/이진탐색 신민석 교수님 풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/이진탐색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/이진탐색.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/퀵 정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/퀵 정렬.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/병합정렬/1-1 민석썜 병합정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/병합정렬/1. 병합정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/병합정렬/2-2 민석썜 퀵 정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/병합정렬/2. 퀵 정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/병합정렬/연습문제1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/1-1. [minseok].py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/1-1. [P.minseok].py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/1-2 [minseok2].py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/1-2 [P.minseok2].py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/2-2 [minseok].py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/2-2 [P.minseok].py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/최대상금.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/최대상금.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,49 +47,7 @@
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.최대상금">
-    <configuration name="재귀를 통한 조합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="victor_repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/조합" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/조합/재귀를 통한 조합.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="민석썜 순열" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="victor_repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Brute_Force" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Brute_Force/민석썜 순열.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.이진탐색 신민석 교수님 풀이">
     <configuration name="정식이의 은행업무" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2573 빙산" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="퀵 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +77,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/2573 빙산.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/퀵 정렬.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="이진탐색 신민석 교수님 풀이" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/이진탐색 신민석 교수님 풀이.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2-2 민석썜 퀵 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/병합정렬" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/병합정렬/2-2 민석썜 퀵 정렬.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,6 +145,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/최대상금.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="이진탐색" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/이진탐색.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +197,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.이진탐색 신민석 교수님 풀이" />
+        <item itemvalue="Python.2-2 민석썜 퀵 정렬" />
         <item itemvalue="Python.최대상금" />
-        <item itemvalue="Python.민석썜 순열" />
-        <item itemvalue="Python.2573 빙산" />
-        <item itemvalue="Python.베이비진" />
-        <item itemvalue="Python.정식이의 은행업무" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678778920224</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0328">
+      <created>1679993990900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679993990900</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +251,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0314-2" />
     <MESSAGE value="0314" />
-    <option name="LAST_COMMIT_MESSAGE" value="0314" />
+    <MESSAGE value="0328" />
+    <option name="LAST_COMMIT_MESSAGE" value="0328" />
   </component>
 </project>
