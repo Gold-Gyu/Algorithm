@@ -27,8 +27,6 @@ def comb(idx, r, selected):
     selected.pop()
     comb(idx + 1, r, selected)
 
-
-
 # 2. R개를 고를떄까지 계속 선택
 # 내가 idx번째 원소를 골랐다면, idx 이전에 있는 친구는 고려하지 않고
 # 뒤에있는 것만 선택하겠다.

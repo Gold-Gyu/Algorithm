@@ -1,11 +1,9 @@
 dr = [0, 1]
 dc = [1, 0]
 
-
 # 유효성 판단
 def is_valid(r, c):
     return 0 <= r < n and 0 <= c < n
-
 
 def solve(r, c, now_sum):   # r, c 시작점, now_sum: 지금까지의 합
     global min_sum
