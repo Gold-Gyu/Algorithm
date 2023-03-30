@@ -20,7 +20,6 @@ def mergeSort(left, right):
     mergeSort(mid+1, right) # 오른쪽 부분
     # 이 부분을 다 지났다는 거은
 
-
     # 결합
     # => 2개의 부분집합을 정렬하면서 하나의 집합으로 병합
     # 작은 것을 먼저 맨 앞으로 큰 것을 맨 뒤로

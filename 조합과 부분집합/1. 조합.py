@@ -44,7 +44,7 @@ def comb2(idx, selected):
     # 현재 위치 idx를 기준으로해서 다음 친구(i번쨰)를 고른다
     # i > = idx i번쨰 숫자를 하나 고르고 진행
     for i in range(idx, N):
-        comb2(i+1, selected + [lst[i]])
+        comb2(i+1, selected + [lst[i]]) # 포함한다면
 
 comb(0, 0, [])
 print("===========")
