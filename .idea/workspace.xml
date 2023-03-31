@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0329">
-      <change afterPath="$PROJECT_DIR$/SWEA/격자판의 숫자 이어 붙이기.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/병합정렬.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/전기버스2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/전기버스2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/최소 생산 비용.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/최소생산비용.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백트래킹/2806_ n-queen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백트래킹/조합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/병합과 퀵 정렬/병합정렬 하나하나 파헤치기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/병합과 퀵 정렬/병합정렬 한눈에보기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/재귀함수/재귀.py" afterDir="false" />
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0330">
+      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/[A형 대비]수영장.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/[A형대비]수영장.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/디저트 카페.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/요리사.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/부분 수열의 합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/부분 수열의 합.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/장훈이의 높은 선반.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/장훈이의 높은 선반.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/햄버거 다이어트.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/병합정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/병합정렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/병합정렬/1-1 민석썜 병합정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/병합과 퀵 정렬/1-1 민석썜 병합정렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/병합정렬/1. 병합정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/병합과 퀵 정렬/1. 병합정렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/병합정렬/2-2 민석썜 퀵 정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/병합과 퀵 정렬/2-2 민석썜 퀵 정렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/병합정렬/2. 퀵 정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/병합과 퀵 정렬/2. 퀵 정렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/병합정렬/연습문제1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/격자판의 숫자 이어 붙이기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/조합과 부분집합/1. 조합.py" beforeDir="false" afterPath="$PROJECT_DIR$/조합과 부분집합/1. 조합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/1-1. [P.minseok].py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/1-1. [P.minseok].py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/1-2 [P.minseok2].py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/1-2 [P.minseok2].py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/1. [완전탐색]최소합.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/1. [완전탐색]최소합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/2-2 [P.minseok].py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/2-2 [P.minseok].py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/2.electric_cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/2.electric_cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/격자판의 숫자 이어 붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/격자판의 숫자 이어 붙이기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/격자판의 숫자 이어 붙이기.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/격자판의 숫자 이어 붙이기.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/동철이의 일 분배.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/동철이의 일 분배.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/러시아 국기같은 깃발.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/러시아 국기같은 깃발.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/박스에 당근채워넣기.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/박스에 당근채워넣기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/베이비진.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/베이비진.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/베이비진.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/베이비진.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/전기버스2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/전기버스2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/전기버스2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/전기버스2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/최대상금.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/최대상금.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/최대상금.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/최대상금.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/최소 생산 비용.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/최소 생산 비용.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/최소생산비용.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/최소생산비용.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +69,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA\A형 대비" />
+      <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA\백트래킹(순열,조합,부분집합,재귀)" />
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.격자판의 숫자 이어 붙이기">
-    <configuration name="격자판의 숫자 이어 붙이기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.햄버거 다이어트 (1)">
+    <configuration name="격자판의 숫자 이어 붙이기 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +83,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/격자판의 숫자 이어 붙이기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/격자판의 숫자 이어 붙이기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="병합정렬 하나하나 파헤치기 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="햄버거 다이어트 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +104,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/병합과 퀵 정렬" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/병합과 퀵 정렬/병합정렬 하나하나 파헤치기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/햄버거 다이어트.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="병합정렬 한눈에보기 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="디저트 카페" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/병합과 퀵 정렬" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/A형 대비" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/병합과 퀵 정렬/병합정렬 한눈에보기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/A형 대비/디저트 카페.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="퀵 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="햄버거 다이어트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,74 +146,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/퀵 정렬.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="최소 생산 비용" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="victor_repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/최소 생산 비용.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="전기버스2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="victor_repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/전기버스2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="병합정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="victor_repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/병합정렬.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\SSAFY\Desktop\victor_repo\SWEA\백트래킹(순열,조합,부분집합,재귀)\햄버거 다이어트.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,13 +201,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="[A형 대비]수영장" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\SSAFY\Desktop\victor_repo\SWEA\A형 대비\[A형 대비]수영장.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.격자판의 숫자 이어 붙이기" />
-        <item itemvalue="Python.전기버스2" />
-        <item itemvalue="Python.최소 생산 비용" />
-        <item itemvalue="Python.병합정렬 한눈에보기 (1)" />
-        <item itemvalue="Python.병합정렬 하나하나 파헤치기 (1)" />
+        <item itemvalue="Python.햄버거 다이어트 (1)" />
+        <item itemvalue="Python.디저트 카페" />
+        <item itemvalue="Python.햄버거 다이어트" />
+        <item itemvalue="Python.격자판의 숫자 이어 붙이기 (1)" />
+        <item itemvalue="Python.[A형 대비]수영장" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680074106990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0330">
+      <created>1680166868808</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680166868808</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,6 +296,7 @@
     <MESSAGE value="0314" />
     <MESSAGE value="0328" />
     <MESSAGE value="0329" />
-    <option name="LAST_COMMIT_MESSAGE" value="0329" />
+    <MESSAGE value="0330" />
+    <option name="LAST_COMMIT_MESSAGE" value="0330" />
   </component>
 </project>
