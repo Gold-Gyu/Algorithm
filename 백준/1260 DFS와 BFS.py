@@ -3,6 +3,7 @@ def dfs(V):
     stack = []
     ans = []
     v = V
+    print(v)
     ans.append(v)
     visited[v] = 1
 
@@ -12,7 +13,8 @@ def dfs(V):
                 stack.append(v)
                 ans.append(w)
                 v = w
-                # print(v)
+                print(v)
+                print(stack)
                 visited[w] = 1
                 break # For w문 탈출
         else:
@@ -52,6 +54,7 @@ for _ in range(M):
     adj[end].append(start)
     adj[start].sort()
     adj[end].sort()
+print(adj)
 
 dfs(V)
 bfs(adj, V, N)
