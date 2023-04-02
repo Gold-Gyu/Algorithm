@@ -11,11 +11,7 @@ T = int(input())
 
 """
 
-
-
 # m : 정렬 대상 리스트
-
-
 def mergesort(m):
 
     # 종료조건
@@ -40,11 +36,9 @@ def mergesort(m):
     print(f"left : {left}")
     print(f"right : {right}")
 
-
     # 다시 합치는 과정 : 병합    # 1조각까지 다 쪼갠다음에 병합과정 실시
     return merge(left, right)
-    print(f"result : {result}")
-    print("===================")
+
 # 왼쪽과 오른쪽을 합쳐주는 함수
 # 병합해주는 함수
 def merge(left, right):
@@ -87,7 +81,8 @@ def merge(left, right):
         elif Ri < RN:
             result.append(right[Ri])
             Ri += 1
-
+    print(f"result : {result}")
+    print("===================")
 
 
 for tc in range(1, T+1):

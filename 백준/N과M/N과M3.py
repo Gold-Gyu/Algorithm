@@ -1,23 +1,19 @@
-def dfs(idx, selected, sset):
+def dfs(idx, s, selected):
 
 
     # 종료조건
     if idx == M:
         if len(selected) == M:
-            sset.add(selected)
-            print(*sset)
+            print(*selected)
         return
 
-    for i in range(1, N+1):
-        # if i not in selected:
-
+    for j in range(s, N+1):
         # selected.append(i)
-        dfs(idx+1, selected + [i], sset)
-        dfs(idx+1, selected, sset)
+        dfs(idx+1, j, selected + [j])
+        # dfs(idx+1, i, selected)
         # selected.pop()
 
 
 
 N, M = map(int, input().split())
-sset = set()
-dfs(0,[1], sset)
+dfs(0, 1, [])
