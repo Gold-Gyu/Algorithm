@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0330">
-      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/[A형 대비]수영장.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/[A형대비]수영장.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/디저트 카페.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/요리사.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/부분 수열의 합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/부분 수열의 합.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/장훈이의 높은 선반.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/장훈이의 높은 선반.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/햄버거 다이어트.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/1-1. [P.minseok].py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/1-1. [P.minseok].py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/1-2 [P.minseok2].py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/1-2 [P.minseok2].py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/1. [완전탐색]최소합.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/1. [완전탐색]최소합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/2-2 [P.minseok].py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/2-2 [P.minseok].py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/2.electric_cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/2.electric_cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/격자판의 숫자 이어 붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/격자판의 숫자 이어 붙이기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/격자판의 숫자 이어 붙이기.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/격자판의 숫자 이어 붙이기.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/동철이의 일 분배.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/동철이의 일 분배.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/러시아 국기같은 깃발.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/러시아 국기같은 깃발.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/박스에 당근채워넣기.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/박스에 당근채워넣기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/베이비진.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/베이비진.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/베이비진.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/베이비진.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/전기버스2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/전기버스2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/전기버스2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/전기버스2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/최대상금.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/최대상금.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/최대상금.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/최대상금.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/최소 생산 비용.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/최소 생산 비용.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/최소생산비용.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/최소생산비용.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +47,7 @@
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.햄버거 다이어트 (1)">
+  <component name="RunManager" selected="Python.서로소(민석쌤과함께)">
     <configuration name="격자판의 숫자 이어 붙이기 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,27 +90,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="디저트 카페" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="victor_repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/A형 대비" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/A형 대비/디저트 카페.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="햄버거 다이어트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="이진탐색" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="디저트 카페" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/A형 대비" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/이진탐색.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/A형 대비/디저트 카페.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,11 +174,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="서로소(민석쌤과함께)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/서로소" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/서로소/서로소(민석쌤과함께).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.서로소(민석쌤과함께)" />
         <item itemvalue="Python.햄버거 다이어트 (1)" />
         <item itemvalue="Python.디저트 카페" />
-        <item itemvalue="Python.햄버거 다이어트" />
         <item itemvalue="Python.격자판의 숫자 이어 붙이기 (1)" />
         <item itemvalue="Python.[A형 대비]수영장" />
       </list>
