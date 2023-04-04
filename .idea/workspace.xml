@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0403">
-      <change afterPath="$PROJECT_DIR$/SWEA/그룹나누기(서로소).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/그룹나누기.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/연산.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/연산.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가풀이/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/과목평가풀이/02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/그래프/graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/서로소/서로소.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/r.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/그래프/MST/Kruskal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/그래프/MST/prim 알고리즘(MST).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/그래프/최단경로/Dikstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/서로소/그래프.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/서로소/박영준교수님수업.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWEA/A형 대비/[A형대비]홈방범서비스.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/A형 대비/[A형대비]홈방범서비스.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +51,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SSAFY\Desktop\victor_repo\그래프\MST" />
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA" />
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA\A형 대비" />
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA\백트래킹(순열,조합,부분집합,재귀)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.연산">
-    <configuration name="햄버거 다이어트 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Kruskal">
+    <configuration name="박영준교수님수업" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/서로소" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/백트래킹(순열,조합,부분집합,재귀)/햄버거 다이어트.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/서로소/박영준교수님수업.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +79,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="디저트 카페" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Dikstra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/그래프/최단경로" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/그래프/최단경로/Dikstra.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Kruskal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/그래프/MST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/그래프/MST/Kruskal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="탈주범검거" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/A형 대비/디저트 카페.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,6 +163,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="탈주범검거" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/A형 대비" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="그래프" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/서로소" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/서로소/그래프.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="서로소" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="서로소(민석쌤과함께)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="prim 알고리즘(MST)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,11 +234,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/서로소" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/그래프" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/서로소/서로소(민석쌤과함께).py" />
+      <option name="SCRIPT_NAME" value="C:\Users\SSAFY\Desktop\victor_repo\그래프\MST\prim 알고리즘(MST).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +247,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="그룹나누기(서로소)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="r" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,11 +255,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/A형 대비" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/그룹나누기(서로소).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/A형 대비/r.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.연산" />
-        <item itemvalue="Python.그룹나누기(서로소)" />
-        <item itemvalue="Python.서로소" />
-        <item itemvalue="Python.서로소(민석쌤과함께)" />
-        <item itemvalue="Python.햄버거 다이어트 (1)" />
+        <item itemvalue="Python.Kruskal" />
+        <item itemvalue="Python.Dikstra" />
+        <item itemvalue="Python.prim 알고리즘(MST)" />
+        <item itemvalue="Python.r" />
+        <item itemvalue="Python.박영준교수님수업" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680503661035</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="0403">
+      <created>1680512470356</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680512470356</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,5 +359,56 @@
     <MESSAGE value="0330" />
     <MESSAGE value="0403" />
     <option name="LAST_COMMIT_MESSAGE" value="0403" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SWEA/A형 대비/탈주범검거.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
