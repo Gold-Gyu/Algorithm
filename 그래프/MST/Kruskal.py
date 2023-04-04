@@ -13,9 +13,14 @@
 4 5 40
 4 6 51
 
+1
+2 3
+0 1 1
+0 2 1
+1 2 6
 """
 
-rep = []
+# rep = []
 
 def findset(x):
     while x != rep[x]:
@@ -30,14 +35,15 @@ def union(x, y):
 V, E = map(int, input().split())
 edge = []
 
+# 1. 가중치 기준 오름차순 정렬
 for i in range(E):
     s, e, w = map(int, input().split())
     edge.append([w, s, e])
 
-edge.sort() # 가장 맨 앞 요소를 기준으로 정렬
+edge.sort() # 가장 맨 앞 요소(가중치)를 기준으로 정렬
 
 # 대표 배열
-rep = [i for i in range(V+1)]
+rep = [i for i in range(V+1)]   # 인덱스는 자기자신, 값들은 자신의 위에서 연결된 값
 
 # 내가 지금까지 선택한 간선의 개수
 cnt = 0

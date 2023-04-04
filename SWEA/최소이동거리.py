@@ -1,20 +1,7 @@
-"""
-5 8
-0 1 2
-0 2 4
-1 2 1
-1 3 7
-2 4 3
-3 4 2
-3 5 1
-4 5 5
+import sys
+sys.stdin = open("최소비용.txt", "r")
 
-1
-2 3
-0 1 1
-0 2 6
-1 2 1
-"""
+from collections import deque
 
 
 INF = 10000
@@ -50,12 +37,15 @@ def dijkstra(s, V):
 T = int(input())
 for tc in range(1, T+1):
     V, E = map(int, input().split())
+    # for _ in range(E):
+    #     v1, v2, W = map(int, input().split())
+
     adjl = [[] for _ in range(V+1)]
     for _ in range(E):
         s, e, w = map(int, input().split())
         adjl[s].append([e, w])
-        adjl[e].append([s, w])
-
+        # adjl[e].append([s, w])
+    print(adjl)
     D = [INF] * (V + 1)
     dijkstra(0, V)
-    print(D[-1])
+    print(f"#{tc} {D[-1]}")
