@@ -1,5 +1,5 @@
-import sys
-sys.stdin = open("상호의 배틀필드.txt", "r")
+# import sys
+# sys.stdin = open("상호의 배틀필드.txt", "r")
 
 
 def is_valid(r, c):
@@ -7,10 +7,9 @@ def is_valid(r, c):
 
 def bfs(r, c):
 
-
-    for i in lstn:
+    for command in lstn:
         cnt = 0
-        if i == "S":    # S가 나오면
+        if command == "S":    # S가 나오면
 
             if field[r][c] == "^":
                 while True:
@@ -23,9 +22,8 @@ def bfs(r, c):
                         break
                     elif field[r][c] == "#":
                         break # while
-
                 r += cnt
-                cnt = 0
+
 
             elif field[r][c] == "v":
                 while True:
@@ -33,15 +31,12 @@ def bfs(r, c):
                     cnt -= 1
                     if not is_valid(r, c):
                         break
-
                     if field[r][c] == "*":
                         field[r][c] = "."
                         break
                     elif field[r][c] == "#":
                         break  # while
-
                 r += cnt
-                cnt = 0
 
             elif field[r][c] == "<":
                 while True:
@@ -54,12 +49,9 @@ def bfs(r, c):
                         break
                     elif field[r][c] == "#":
                         break  # while
-
                 c += cnt
-                cnt = 0
 
             elif field[r][c] == ">":
-
                 while True:
                     c += 1
                     cnt -= 1
@@ -70,71 +62,66 @@ def bfs(r, c):
                         break
                     elif field[r][c] == "#":
                         break # while
-
                 c += cnt
-                cnt = 0
-        elif i == "U":  # U가 나오면    1. 방향을 위로 바꾸고 2. 그 위가 .이면 이동한다.
+
+        elif command == "U":  # U가 나오면    1. 방향을 위로 바꾸고 2. 그 위가 .이면 이동한다.
             nr = r + dr[3]
             nc = c + dc[3]
-            if not is_valid(nr, nc):
-                nr = nc = 0
-            elif is_valid(nr, nc) and field[nr][nc] != ".":
+
+            if is_valid(nr, nc):
+                if field[nr][nc] != ".":
+                    field[r][c] = "^"
+
+                elif field[nr][nc] == ".":
+                    field[r][c] = "."
+                    field[nr][nc] = "^"
+                    r, c = nr, nc
+            else:
                 field[r][c] = "^"
-                nr = nc = 0
-            elif is_valid(nr, nc) and field[nr][nc] == ".":
-                field[r][c] = "."
-                field[nr][nc] = "^"
-                r, c = nr, nc
-                nr = nc = 0
 
-
-        elif i == "D":
+        elif command == "D":
             nr = r + dr[1]
             nc = c + dc[1]
-            if not is_valid(nr, nc):
-                nr = nc = 0
-            elif is_valid(nr, nc) and field[nr][nc] != ".":
+            if is_valid(nr, nc):
+                if field[nr][nc] != ".":
+                    field[r][c] = "v"
+
+                elif field[nr][nc] == ".":
+                    field[r][c] = "."
+                    field[nr][nc] = "v"
+                    r, c = nr, nc
+            else:
                 field[r][c] = "v"
-                nr = nc = 0
-            elif is_valid(nr, nc) and field[nr][nc] == ".":
-                field[r][c] = "."
-                field[nr][nc] = "v"
-                r, c = nr, nc
-                nr = nc = 0
 
-
-        elif i == "L":
+        elif command == "L":
             nr = r + dr[2]
             nc = c + dc[2]
-            if not is_valid(nr, nc):
-                nr = nc = 0
-            elif is_valid(nr, nc) and field[nr][nc] != ".":
+            if is_valid(nr, nc):
+                if field[nr][nc] != ".":
+                    field[r][c] = "<"
+
+                elif field[nr][nc] == ".":
+                    field[r][c] = "."
+                    field[nr][nc] = "<"
+                    r, c = nr, nc
+            else:
                 field[r][c] = "<"
-                nr = nc = 0
-            elif is_valid(nr, nc) and field[nr][nc] == ".":
-                field[r][c] = "."
-                field[nr][nc] = "<"
-                r, c = nr, nc
-                nr = nc = 0
 
-
-
-        elif i == "R":
+        elif command == "R":
             nr = r + dr[0]
             nc = c + dc[0]
-            if not is_valid(nr, nc):
-                nr = nc = 0
-            elif is_valid(nr, nc) and field[nr][nc] != ".":
+
+            if is_valid(nr, nc):
+                if field[nr][nc] != ".":
+                    field[r][c] = ">"
+
+                elif field[nr][nc] == ".":
+                    field[r][c] = "."
+                    field[nr][nc] = ">"
+                    r, c = nr, nc
+            else:
                 field[r][c] = ">"
-                nr = nc = 0
-            elif is_valid(nr, nc) and field[nr][nc] == ".":
-                field[r][c] = "."
-                field[nr][nc] = ">"
-                r, c = nr, nc
-                nr = nc = 0
-
     return
-
 
 T = int(input())
 
@@ -156,6 +143,7 @@ for tc in range(1, T+1):
                 break
         if flag:
             break
+
     print(f"#{tc}", end=" ")
     for i in range(h):
         print(*field[i], sep="")
