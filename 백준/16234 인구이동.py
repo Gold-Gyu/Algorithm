@@ -5,8 +5,7 @@ def is_valid(nr, nc):
     return 0 <= nr < n and 0 <= nc < n
 
 def bfs(i, j, s):
-    global checkpoint
-    global cnt
+    cnt = 0
     city = copy.deepcopy(arr)
     v2 = copy.deepcopy(v)
 
@@ -28,10 +27,6 @@ def bfs(i, j, s):
                     s += city[nr][nc]
                     cnt += 1
                     checkpoint += 1
-    change(s, v2)
-
-def change(s, v2):
-
     ans = s // cnt
     for i in range(n):
         for j in range(n):
