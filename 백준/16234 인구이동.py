@@ -1,62 +1,57 @@
 from collections import deque
 import copy
 
-def is_valid(nr, nc):
-    return 0 <= nr < n and 0 <= nc < n
-
-def bfs(i, j, s):
-    global checkpoint
-    global cnt
-    city = copy.deepcopy(arr)
-    v2 = copy.deepcopy(v)
-
-    q = deque()
+def bfs(i, j):
+    q = deque() # 큐를 생성하고
+    union = []  # 연합나라의 위치를 다 넣어준다.
     q.append((i, j))
-    v2[i][j] = 1
-    s += city[i][j]
+    union.append((i, j))
 
     while q:
         size = len(q)
-        for x in range(size):
-            o, p = q.popleft()
-            for k in range(4):
-                nr = o + dr[k]
-                nc = p + dc[k]
-                if is_valid(nr, nc) and v2[nr][nc] == 0 and l <= abs(city[o][p] - city[nr][nc]) <= r:
-                    q.append((nr, nc))
-                    v2[nr][nc] = 1
-                    s += city[nr][nc]
-                    cnt += 1
-                    checkpoint += 1
-    change(s, v2)
-
-def change(s, v2):
-
-    ans = s // cnt
-    for i in range(n):
-        for j in range(n):
-            if v2[i][j] == 1:
-                arr[i][j] = ans
+        for _ in range(size):
+            x, y = q.popleft()  # q에서 하나 꺼내서
+            for k in range(4): # 4 방향 탐색하고
+                nx = x + dx[k]
+                ny = y + dy[k]
+                if 0 <= nx < n and 0 <= ny < n and v[nx][ny] == 0:  # 범위를 벗어나지 않고 방문한적이없고
+                    if l <= abs(arr[nx][ny] - arr[x][y]) <= r:  # 인구차이가 범위 안에 있다면
+                        v[nx][ny] = 1 # 방문처리 해주고
+                        q.append((nx, ny))  # 큐에 넣어준다 == 연합국이다. == 인구이동한다.
+                        union.append((nx, ny))  # 연합국에 가입.
+    return union    # 연합국(즉, 인구이동해야하는 좌표들)
 
 
-dr = [0, 1, 0, -1]
-dc = [1, 0, -1, 0]
+
+
+# 4방향 탐색
+dx = [0, 1, 0, -1]
+dy = [1, 0, -1, 0]
 n, l, r = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(n)]
-v = [[0] * n for _ in range(n)]
-count = 0
-cp = 0
-checkpoint = 0
-cnt = 1
-while cp < n*n:
 
+
+year = 0
+while True:
+    v = [[0] * n for _ in range(n)] # 방문함수 제작 + 매번 싸이클마다 초기화
+    flag = 0    # 체크포인트 생성 + 사이클마다 초기화
     for i in range(n):
-        for j in range(n):
-            bfs(i, j, 0)
-            if checkpoint == 0:
-                cp += 1
-    if cnt >= 2:
-        count += 1
-    cnt = 1
-    checkpoint = 0
-print(count)
+        for j in range(n):  # 모든 경우의 수를 돌면서
+            if v[i][j] == 0: # 한번도 방문하지 않은 곳에서
+                v[i][j] = 1 # 이제 방문했다고 체크
+                union_ = bfs(i, j) # bfs를 돌아 인구이동하는 연합 나라의 개수를 구한다.
+
+                if len(union_) > 1:    # 연합국가가 있다면( 즉, 이동해야하는 국가가 있다면)
+                    flag = 1 # 인구이동이 있으면 체크!!!
+                    sum_ = sum(arr[x][y] for x, y in union_)    # 연합국가들이 가지고 있는 사람들의 수 다 더한다.
+                    country = len(union_)   # 연합국가의 수
+                    human = sum_ // country
+
+                    for x, y in union_:
+                        arr[x][y] = human
+    if flag == 0:
+        break
+    year += 1
+
+
+print(year)
