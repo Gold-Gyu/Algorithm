@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <h2>{{hashtag.content}}를 태그한 글</h2>
+    {% for article in articles %}
+        <h3>{{article.pk}}번 게시글</h3>
+        <h3>{{article.title}}</h3>
+        <p>{{article.comment_set.all|length}}개의 댓글</p>
+        <a href="{% url 'articles:detail' article.pk %}"></a>
+    
+    
+    
+    
+    {% endfor %}
+
+
+
+
+</div>
+
+
+{% endblock content %}
