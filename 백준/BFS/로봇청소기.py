@@ -1,4 +1,3 @@
-
 def is_valid(nr, nc):
     return 0 <= nr < n and 0 <= nc < m
 
