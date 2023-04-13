@@ -1,3 +1,5 @@
+from pprint import pprint
+
 def is_valid(nr, nc):
     return 0 <= nr < n and 0 <= nc < m
 
@@ -44,7 +46,8 @@ def dfs(r, c, d):
             c = c - dc[d]
             if arr[r][c] == 1:
                 return
-
+        pprint(v)
+        print('========================================')
 dr = [-1, 0, 1, 0]
 dc = [0, 1, 0, -1]
 

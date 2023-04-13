@@ -51,7 +51,9 @@ while True:
     nr = start + dr[d]
     nc = end + dc[d]
     if is_valid(nr, nc):
-        if board[nr][nc] == 0:
+        if v[nr][nc] == 1:
+            break
+        elif board[nr][nc] == 0:
             tail_x, tail_y = q.popleft()
             v[tail_x][tail_y] = 0
             v[nr][nc] = 1
@@ -65,14 +67,10 @@ while True:
             start = nr
             end = nc
 
+
     elif not is_valid(nr, nc) or v[nr][nc] == 1:
         break
 
 
 
-    print(time)
-    pprint(board)
-    print('========================')
-    pprint(v)
-    print("=================")
 print(time)

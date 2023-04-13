@@ -81,6 +81,7 @@ def profile(request, username):
 def follow(request, user_pk):
     if request.user.is_authenticated:
         person = get_user_model().objects.get(pk = user_pk)
+        # 지금 유저데이터베이스에 있는 모든 유저의 데이터들 중에서 현재 로그인한 애의 정보만 가져온 것이 person
         if request.user != person:
             if person.followers.filter(pk=request.user.pk).exists():
                 person.followers.remove(request.user)
