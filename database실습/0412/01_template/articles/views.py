@@ -62,17 +62,17 @@ def update(request, pk):
 
 
 def comments_create(request, pk):
-    if not request.user.is_authenticated:
-        return redirect('accounts:login')
+    if request.user.is_authenticated:   # 인증된 사람이면
 
-    article = Article.objects.get(pk=pk)
-    comment_form = CommentForm(request.POST)
-    if comment_form.is_valid():
-        comment = comment_form.save(commit=False)
-        comment.article = article
-        comment.user = request.user
-        comment.save()
-    return redirect('articles:detail', article.pk)
+        article = Article.objects.get(pk=pk)
+        comment_form = CommentForm(request.POST)
+        if comment_form.is_valid():
+            comment = comment_form.save(commit=False)
+            comment.article = article
+            comment.user = request.user # 코맨트 단 사람과 로그인 사람이 같으면
+            comment.save()
+        return redirect('articles:detail', article.pk)
+    return redirect('accounts:login')   # 인증된 사람이 아니라면
 
 
 def comments_delete(request, pk, comment_pk):

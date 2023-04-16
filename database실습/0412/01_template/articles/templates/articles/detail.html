@@ -37,6 +37,7 @@
       {% for comment in comments %}
         <li>
           {{comment.content}} - {{comment.user}}
+          {% comment %} 로그인한 사람 == 작성자 인 경우에만 삭제하기 띄워주기 {% endcomment %}
           {% if request.user == comment.user %}
             <form action="{% url 'articles:comments_delete' article.pk comment.pk%}" method="POST">
               {% csrf_token %}

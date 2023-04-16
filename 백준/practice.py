@@ -1,64 +1,120 @@
-import sys
-input = sys.stdin.readline
+"""
+3 4 5
+S....
+.###.
+.##..
+###.#
+
+#####
+#####
+##.##
+##...
+
+#####
+#####
+#.###
+####E
+
+0 0 0
+
+"""
+import copy
 from pprint import pprint
-# 각각의 칸은 벽 또는 빈칸이다
-# 처음빈칸은 청소되지 않은 상태
+from collections import deque
+def is_valid(nr, nc):
+    return 0 <= nr < R and 0 <= nc < C
 
-# 현재칸이 아직 청소되지 않은경우, 현재 칸을 청소
+def bfs(stair, r, c):
+    global ans
+    global flag2
 
-# 현재 칸의 주변 4칸이 다 청소가 된 경우
-# 1. 바라보는 방향을 유지한 채로 한 칸 후진할 수 있다면 한 칸 후진하고 1번으로 돌아간다.
-# 2. 바라보는 방향의 뒤쪽 칸이 벽이라 후진할 수 없다면 작동을 멈춘다.
+    q = deque()
+    q.append((stair, r, c))
+    v[stair*R+r][stair*C+c] = 1
 
-# 현재 칸의 주변 4칸 중 청소되지 않은 빈 칸이 있는 경우,
-# 1. 반시계 방향으로 90도 회전한다.
-# 2. 바라보는 방향을 기준으로
+    while q:
+        ans += 1
+        size = len(q)
 
-dx = [-1, 0, 1, 0]  # 0 북 1 동 2 남 3 서
-dy = [0, 1, 0, -1]
+        for i in range(size):
+            stair, r, c = q.popleft()
 
-r, c = map(int, input().split())
-x, y, d = map(int, input().split())
+            # 4방향 갈 수 있는 곳
+            for k in range(4):
+                nr = r + dr[k]
+                nc = c + dc[k]
 
-map_list = [list(map(int, input().split())) for _ in range(r)]
-visited = [[0] * c for _ in range(r)]   # 방문 == 로봇이 방문하고. 청소한걸 체크
-visited[x][y] = 1
+                if is_valid(nr, nc) and floor[stair][nr][nc] != "#" and v[stair*R + nr][nc] == 0:
+                    q.append((stair, nr, nc))
+                    v[stair*R + nr][nc] = 1
+            # 상하층
+            if floor_cnt > 1:
+                if stair == 0:
+                    stair = stair + height
+                    if floor_cnt > stair:
+                        if floor[stair][r][c] == "." and v[stair*R + r][c] == 0:
+                            q.append((stair, r, c))
+                            v[stair*R + r][c] = 1
+                            stair = stair - height
+                elif stair > 0:
+                    stair = stair + height
+                    if floor_cnt > stair:
+                        if is_valid(r, c) and floor[stair][r][c] == "." and v[stair * R + r][c] == 0:
+                            q.append((stair, r, c))
+                            v[stair * R + r][c] = 1
+                        elif floor[stair][r][c] == "E":
+                            return
+                        stair = stair - height*2
+                        if is_valid(r, c) and floor[stair][r][c] == "." and v[stair * R + r][c] == 0:
+                            q.append((stair, r, c))
+                            v[stair * R + r][c] = 1
+                            stair = stair - height * 2
+                        elif floor[stair][r][c] == "E":
+                            return
+
+
+        if len(q) == 0:
+            flag2 = 1
+            return
+
+
+
+dr = [1, -1, 0, 0]
+dc = [0, 0, 1, -1]
+height = 1
 
 
 while True:
-    clean = 0
-    cnt = 0
-    for t in range(4):
-        nx = x + dx[t]
-        ny = y + dy[t]
-        if visited[nx][ny] == 0 and map_list[nx][ny] == 0:
-            clean += 1
-            break
-    if clean:   # 만약 갈 곳이있다면
-        while True: # 반시계 90도돌면서 가서 청소할 곳을 찾는다.
-            d -= 1
-            if d < 0:
-                d = 3
-            temp_x = x + dx[d]
-            temp_y = y + dy[d]
-            if visited[temp_x][temp_y] == 0 and map_list[temp_x][temp_y] == 0:  # 반시계방향으로 돌아서 갈 수 있는 곳이고 방문한적이 없다면
-                visited[temp_x][temp_y] = 1
-                x = temp_x
-                y = temp_y
+    ans = 0
+    L, R, C = map(int, input().split())
+
+    if L == R == C == 0:
+        break
+    floor = []
+    for _ in range(L):
+        floor.append([list(input()) for _ in range(R)])
+        blank = input()
+    floor_cnt = len(floor)  # 층의 개수
+    v = [[0] * C for _ in range(R * C + floor_cnt)]
+    here = 0    #층 인덱스
+    flag = 0
+    flag2 = 0
+
+    for stair in range(floor_cnt):
+        for r in range(R):
+            for c in range(C):
+                if floor[stair][r][c] == "S":
+                    v[stair*R + r][c] = 1
+                    bfs(stair, r, c)
+                    flag = 1
+                    break
+            if flag:
                 break
-    elif clean == 0:
-        nx = x - dx[d]
-        ny = x - dy[d]
-        x = nx
-        y = ny
-        if map_list[nx][ny] == 1:
+        if flag:
             break
+    if flag == 1 and flag2 == 0:
+        print(f"Escaped in {ans} minute(s).")
+    elif flag2 and flag:
+        print("Trapped!")
 
 
-    pprint(visited)
-    print("=====================================")
-result = 0
-for i in range(1, r):
-    result += visited[i].count(1)
-
-print(result)
