@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0414">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/victor_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/victor_repo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database실습/0412/01_template/articles/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/database실습/0412/01_template/articles/templates/articles/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database실습/0412/01_template/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/database실습/0412/01_template/articles/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/백준/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -512,43 +512,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/BFS/5427 fire.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/BFS/5427 fire.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/BFS/5427 fire.py</url>
-          <line>36</line>
+          <line>33</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>107</line>
-          <option name="timeStamp" value="63" />
+          <line>51</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>105</line>
-          <option name="timeStamp" value="64" />
+          <line>54</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="65" />
+          <line>60</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="67" />
+          <line>68</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
