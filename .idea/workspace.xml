@@ -2,10 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0414">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/victor_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/victor_repo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/과목평가풀이/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/과목평가풀이/비트연산연습.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/input (1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/input (4).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/input1 (1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/s_input (2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/s_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/sample_input (1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/고대유적.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/디버깅체크.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/백만장자.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/쇠막대기 자르기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/원자재 메모리 구하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0224문제풀이/contact.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0224문제풀이/세제곱근찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0224문제풀이/정삼각형방.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0224문제풀이/탈주범 검거.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0224문제풀이/홈 방법 서비스.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/1. 2805 농작물 수확하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/2. 5356 의석이의 세로로 말해요.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/3. 1860 진기의 최고급 붕어빵.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/4-4 magnetic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/4. 1220 magnetic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/5. 12712 파리퇴치3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/6. 오목 판정.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/7. 원재의 메모리 복구하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/in1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/input (2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/input (3).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/sample_input (4).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/sample_input (8).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/연습장.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1012 유기농 배추.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/1012 유기농 배추.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1260 DFS와 BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/1260 DFS와 BFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/2178 미로.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/2178 미로1.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2178 미로1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/2468 안전영역.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2468 안전영역.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/2559.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/2573 빙산.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/2606 바이러스.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2606 바이러스.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/2667 단지번호붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2667 단지번호붙이기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/2798 블랙잭.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/4963 섬의 개수.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/4963 섬의 개수.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/7576 토마토.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/7576 토마토.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/BFS/2573 - 2 빙산 최적화.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2573 - 2 빙산 최적화.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/BFS/2573 빙산.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2573 빙산.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/BFS/5427 fire.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/5427 fire.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/BFS/로봇청소기.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/로봇청소기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/BFS/숨박꼭질.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/숨박꼭질.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/BFS/연구소.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/연구소.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -511,7 +558,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/BFS/5427 fire.py</url>
+          <url>file://$PROJECT_DIR$/백준/Graph/5427 fire.py</url>
           <line>33</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
