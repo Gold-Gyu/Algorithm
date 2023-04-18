@@ -1,58 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0414">
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0418">
+      <change afterPath="$PROJECT_DIR$/백준/Combinatorics/15650 N과M(2).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/Combinatorics/15654 N과M(5).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/Implementation/6593.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/과목평가풀이/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/과목평가풀이/비트연산연습.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/input (1).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/input (4).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/input1 (1).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/s_input (2).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/s_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/sample_input (1).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/고대유적.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/디버깅체크.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/백만장자.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/쇠막대기 자르기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0217문제풀이/원자재 메모리 구하기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0224문제풀이/contact.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0224문제풀이/세제곱근찾기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0224문제풀이/정삼각형방.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0224문제풀이/탈주범 검거.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0224문제풀이/홈 방법 서비스.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/1. 2805 농작물 수확하기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/2. 5356 의석이의 세로로 말해요.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/3. 1860 진기의 최고급 붕어빵.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/4-4 magnetic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/4. 1220 magnetic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/5. 12712 파리퇴치3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/6. 오목 판정.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/7. 원재의 메모리 복구하기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/in1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/input (2).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/input (3).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/sample_input (4).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/sample_input (8).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/문제풀이/0303문제풀이/연습장.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1012 유기농 배추.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/1012 유기농 배추.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/1260 DFS와 BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/1260 DFS와 BFS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2178 미로.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2178 미로1.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2178 미로1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2468 안전영역.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2468 안전영역.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2559.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2573 빙산.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2606 바이러스.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2606 바이러스.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2667 단지번호붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2667 단지번호붙이기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/2798 블랙잭.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/4963 섬의 개수.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/4963 섬의 개수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/7576 토마토.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/7576 토마토.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/BFS/2573 - 2 빙산 최적화.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2573 - 2 빙산 최적화.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/BFS/2573 빙산.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/2573 빙산.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/BFS/5427 fire.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/5427 fire.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/BFS/로봇청소기.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/로봇청소기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/BFS/숨박꼭질.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/숨박꼭질.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/BFS/연구소.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/연구소.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brute_Force/1. 사전순으로 순열 생성하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/Brute_Force/1. 사전순으로 순열 생성하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brute_Force/2 (사전순 x )재귀 호출을 통한 순열.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/Brute_Force/2 (사전순 x )재귀 호출을 통한 순열.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brute_Force/민석썜 순열.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/Brute_Force/민석썜 순열.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/1-1 오목.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/1.오목.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/10. 진기의 최고급 붕어빵.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/2.오셀로.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/3.원재의 메모리.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/4.농작물 수확하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/5. 현주의 상자바꾸기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/6. 성공적인 공연 기획.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/7.새로운 불면증 치료법.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/8. 원조 풍선팡.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/9. 기지국.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/input (20).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/sample_input (3).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM 대비 문제/이차행렬/러시아 국기 같은 깃발.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/2차행렬/0. 오목.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/2차행렬/1. 오목.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/2차행렬/2. 오셀로.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/2차행렬/3. 농작물 수확하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/2차행렬/4. 새로운 불면증 치료법.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/2차행렬/input (19).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/2차행렬/sample_input (17).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/2차행렬/sample_input (18).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/flying3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/flyingedit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/in1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/input (5).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/input2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/memory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/sample_input (2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/과목평가 색칠하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/과목평가1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/과목평가2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/달팽이.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/색칠하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/스도쿠.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/오목판정.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/우주선탐색.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/우주선탐색2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/의석이의 세로로 말해요.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/파리퇴치.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/파리퇴치3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IM/풍선팡.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/bootstrap grid/02_grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/bootstrap grid/grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/bootstrap grid/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/그래프/MST/Kruskal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/그래프/MST/Kruskal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/그래프/MST/prim 알고리즘(MST).py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/그래프/MST/prim 알고리즘(MST).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/그래프/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/그래프/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/그래프/최단경로/Dikstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/그래프/최단경로/Dikstra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/16234 인구이동.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/16234 인구이동.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/1931 회의실배정.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Greedy/1931 회의실배정.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/2527직사각형.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/2738 행렬덧셈.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/3190 뱀.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Implementation/3190 뱀.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/N과M/15649 N과 M.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Combinatorics/15649 N과M(1).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/N과M/15650 N과M 2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/N과M/N과 M(2).py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Combinatorics/15651 N과M(3).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/N과M/N과M3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/N과M/N과M5.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Combinatorics/15652 N과M(4).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/빙고.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Implementation/빙고.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/치킨배달.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/치킨배달.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백트래킹/2806_ n-queen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/백트래킹/2806_ n-queen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백트래킹/조합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/백트래킹/조합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/병합과 퀵 정렬/1-1 민석썜 병합정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/병합과 퀵 정렬/1-1 민석썜 병합정렬.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/병합과 퀵 정렬/1. 병합정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/병합과 퀵 정렬/1. 병합정렬.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/병합과 퀵 정렬/2-2 민석썜 퀵 정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/병합과 퀵 정렬/2-2 민석썜 퀵 정렬.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/병합과 퀵 정렬/2. 퀵 정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/병합과 퀵 정렬/2. 퀵 정렬.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/병합과 퀵 정렬/버블정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/병합과 퀵 정렬/버블정렬.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/병합과 퀵 정렬/병합정렬 하나하나 파헤치기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/병합과 퀵 정렬/병합정렬 하나하나 파헤치기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/병합과 퀵 정렬/병합정렬 한눈에보기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/병합과 퀵 정렬/병합정렬 한눈에보기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/서로소/그래프.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/서로소/그래프.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/서로소/박영준교수님수업.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/서로소/박영준교수님수업.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/서로소/서로소.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/서로소/서로소.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/월말평가와 과목평가/1.과목평가/algo1_광주_3반_이금규.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/월말평가와 과목평가/2차월말평가/교수님 풀이/algo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/재귀함수/재귀.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/재귀함수/재귀.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/조합과 부분집합/1. 조합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/조합과 부분집합/1. 조합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/조합과 부분집합/바이너리 카운팅 부분집합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/조합과 부분집합/바이너리 카운팅 부분집합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/조합과 부분집합/반복문 조합 (r이 고정인경우).py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/조합과 부분집합/반복문 조합 (r이 고정인경우).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/조합과 부분집합/재귀를 통한 조합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/조합과 부분집합/재귀를 통한 조합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/트리/1.서브트리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/트리/1.서브트리.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/트리/2. 이진탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/트리/2. 이진탐색.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/트리/sample_input (15).txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/트리/sample_input (15).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/트리/sample_input(1) (3).txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithmn_theory/트리/sample_input(1) (3).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/회문/1. 회문1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/회문/sample_input (16).txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,15 +138,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA\A형 대비" />
-      <recent name="C:\Users\SSAFY\Desktop\victor_repo\백준" />
-      <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA" />
-      <recent name="C:\Users\SSAFY\Desktop\victor_repo\그래프\MST" />
-      <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA\백트래킹(순열,조합,부분집합,재귀)" />
+      <recent name="C:\Users\SSAFY\Desktop\victor_repo\Algorithmn_theory" />
+      <recent name="C:\Users\SSAFY\Desktop\victor_repo\백준\Implementation" />
+      <recent name="C:\Users\SSAFY\Desktop\victor_repo\백준\Greedy" />
+      <recent name="C:\Users\SSAFY\Desktop\victor_repo\백준\Combinatorics" />
+      <recent name="C:\Users\SSAFY\Desktop\victor_repo\백준\Graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.practice">
-    <configuration name="상호의 배틀필드" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.15651 N과M(3)">
+    <configuration name="15651 N과M(3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,32 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/A형 대비" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/N과M" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/A형 대비/상호의 배틀필드.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="16234 인구이동" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="victor_repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/16234 인구이동.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\SSAFY\Desktop\victor_repo\백준\Combinatorics\15651 N과M(3).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,7 +200,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/3190 뱀.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\SSAFY\Desktop\victor_repo\백준\Implementation\3190 뱀.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,6 +222,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/BFS/5427 fire.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="6593" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\SSAFY\Desktop\victor_repo\백준\Implementation\6593.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,34 +377,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="victor_repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/practice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.practice" />
+        <item itemvalue="Python.15651 N과M(3)" />
+        <item itemvalue="Python.6593" />
         <item itemvalue="Python.5427 fire" />
         <item itemvalue="Python.로봇청소기" />
         <item itemvalue="Python.3190 뱀" />
-        <item itemvalue="Python.16234 인구이동" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681400809249</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="0418">
+      <created>1681787350123</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681787350123</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,7 +536,8 @@
     <MESSAGE value="DB + Django" />
     <MESSAGE value="0410" />
     <MESSAGE value="0414" />
-    <option name="LAST_COMMIT_MESSAGE" value="0414" />
+    <MESSAGE value="0418" />
+    <option name="LAST_COMMIT_MESSAGE" value="0418" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,22 +593,22 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
+          <url>file://$PROJECT_DIR$/백준/Implementation/6593.py</url>
           <line>51</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
+          <url>file://$PROJECT_DIR$/백준/Implementation/6593.py</url>
           <line>54</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
+          <url>file://$PROJECT_DIR$/백준/Implementation/6593.py</url>
           <line>60</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
+          <url>file://$PROJECT_DIR$/백준/Implementation/6593.py</url>
           <line>68</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>

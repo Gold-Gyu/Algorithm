@@ -1,5 +1,5 @@
 def comb(k):
-    if k == M:
+    if k >= M:
         print(*candidate)
         return
 
@@ -12,5 +12,3 @@ def comb(k):
 N, M = map(int, input().split())
 candidate = []
 comb(0)
-
-
