@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0414">
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0416">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database실습/0412/01_template/articles/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/database실습/0412/01_template/articles/templates/articles/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database실습/0412/01_template/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/database실습/0412/01_template/articles/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/백준/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -432,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681400809249</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="0416">
+      <created>1681648425488</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681648425489</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -460,7 +465,8 @@
     <MESSAGE value="DB + Django" />
     <MESSAGE value="0410" />
     <MESSAGE value="0414" />
-    <option name="LAST_COMMIT_MESSAGE" value="0414" />
+    <MESSAGE value="0416" />
+    <option name="LAST_COMMIT_MESSAGE" value="0416" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -527,28 +533,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>107</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>105</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>39</line>
+          <line>46</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>36</line>
+          <line>43</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="67" />
+          <line>53</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/백준/practice.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/백준/practice.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
