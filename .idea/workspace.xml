@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0416">
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0418">
+      <change afterPath="$PROJECT_DIR$/백준/Graph/미세먼지안녕!.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/victor_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/victor_repo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/Graph/1245 농장관리.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/1245 농장관리.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +56,8 @@
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA\백트래킹(순열,조합,부분집합,재귀)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.practice">
-    <configuration name="상호의 배틀필드" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.미세먼지안녕!">
+    <configuration name="1245 농장관리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,32 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA/A형 대비" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/Graph" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/A형 대비/상호의 배틀필드.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="16234 인구이동" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="victor_repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/16234 인구이동.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Graph/1245 농장관리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,27 +91,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/BFS/로봇청소기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3190 뱀" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="victor_repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/3190 뱀.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,6 +246,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="미세먼지안녕!" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/Graph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Graph/미세먼지안녕!.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.미세먼지안녕!" />
+        <item itemvalue="Python.1245 농장관리" />
         <item itemvalue="Python.practice" />
         <item itemvalue="Python.5427 fire" />
         <item itemvalue="Python.로봇청소기" />
-        <item itemvalue="Python.3190 뱀" />
-        <item itemvalue="Python.16234 인구이동" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681648425489</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="0418">
+      <created>1681814216266</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681814216267</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -466,7 +455,8 @@
     <MESSAGE value="0410" />
     <MESSAGE value="0414" />
     <MESSAGE value="0416" />
-    <option name="LAST_COMMIT_MESSAGE" value="0416" />
+    <MESSAGE value="0418" />
+    <option name="LAST_COMMIT_MESSAGE" value="0418" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,29 +522,19 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="65" />
+          <url>file://$PROJECT_DIR$/백준/Graph/1245 농장관리.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="66" />
+          <url>file://$PROJECT_DIR$/백준/Graph/미세먼지안녕!.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/백준/practice.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="71" />
+          <url>file://$PROJECT_DIR$/백준/Graph/미세먼지안녕!.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
