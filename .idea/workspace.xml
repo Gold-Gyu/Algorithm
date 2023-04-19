@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0418">
-      <change afterPath="$PROJECT_DIR$/백준/Graph/미세먼지안녕!.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/victor_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/victor_repo.iml" afterDir="false" />
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0419">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/Graph/1245 농장관리.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Graph/1245 농장관리.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -426,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681814216267</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="0419">
+      <created>1681860204002</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681860204002</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +459,8 @@
     <MESSAGE value="0414" />
     <MESSAGE value="0416" />
     <MESSAGE value="0418" />
-    <option name="LAST_COMMIT_MESSAGE" value="0418" />
+    <MESSAGE value="0419" />
+    <option name="LAST_COMMIT_MESSAGE" value="0419" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,13 +532,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/Graph/미세먼지안녕!.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="88" />
+          <line>119</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/Graph/미세먼지안녕!.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="89" />
+          <line>120</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/백준/Graph/미세먼지안녕!.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/백준/Graph/미세먼지안녕!.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
