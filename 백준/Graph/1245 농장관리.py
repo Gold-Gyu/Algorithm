@@ -10,7 +10,7 @@ def bfs(i, j):
 
     q = deque()
     q.append((i, j))
-    
+    flag = 0
 
     while q:
         size = len(q)
@@ -19,8 +19,12 @@ def bfs(i, j):
             for k in range(8):
                 nr = r + dr[k]
                 nc = c + dc[k]
-                if is_valid(nr, nc) and
-
+                if is_valid(nr, nc) and arr[r][c] >= arr[nr][nc] and not v[nr][nc]:
+                    if flag == 0:
+                        q.append((nr, nc))
+                        v[nr][nc] = 1
+                elif is_valid(nr, nc) and arr[r][c] > arr[nr][nc] and not v[nr][nc]:
+                    flag = 1
 
 
 
