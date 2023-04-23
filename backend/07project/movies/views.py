@@ -7,21 +7,30 @@ from .serializers import ActorListSerializer, ActorSerializer, MovieListSerializ
 # Create your views here.
 
 # 전체 목록 조회하기
-@api_view(['GET'])
+@api_view(['GET', 'POST'])
 def actor_list(request):
+    actors = Actor.objects.all()
     if request.method == "GET":
-        actors = Actor.objects.all()
-        # print(actors)
         serializer = ActorListSerializer(actors, many=True)
         return Response(serializer.data)
     
-@api_view(['GET'])
+    elif request.method == "POST":
+        serializer = ActorListSerializer(data=request.data)
+        if serializer.is_valid(raise_exception=True):
+            serializer.save()
+            return Response(serializer.data)
+
+# 특정 actor 조회하기    
+@api_view(['GET', 'POST'])
 def actor_detail(request, actor_pk):
     actors = get_object_or_404(Actor, pk = actor_pk)
+    print(actors)
     if request.method == "GET":
         serializer = ActorSerializer(actors)
         return Response(serializer.data)
     
+    
+# 
 @api_view(['GET'])
 def movie_list(request):
     if request.method == "GET":
@@ -43,8 +52,6 @@ def review_list(request):
         reviews = Review.objects.all()
         serializer = ReviewListSerializer(reviews, many=True)
         return Response(serializer.data)
-    
-    
     
 @api_view(['GET', 'PUT', 'DELETE'])
 def review_detail(request, review_pk):
@@ -75,6 +82,12 @@ def create_review(request, movie_pk):
     
     elif request.method == "POST":
         serializer = ReviewSerializer(data=request.data)
+        # 유저가 입력한 데이터만 들어옴
+        
+        # request.data == json
+        # movie가 왜 없는거죵??
+        # 여기에 무비가 있어야한다.
         if serializer.is_valid(raise_exception=True):
             serializer.save(movie=movie)
+            # pk
             return Response(serializer.data, status=status.HTTP_201_CREATED)
