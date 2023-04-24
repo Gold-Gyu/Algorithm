@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id ="btn">클릭</button>
+    <p id="counter">0</p>
+    <script>
+        // 이벤트를 통해 하고싶은 일
+        // p태그 안의 텍스트가 버튼을 클릭할 때마다 1씩 증가
+        let count = 0
+        const btn = document.querySelector("#btn") // id가 btn인 것을 가져온다(이벤트가 발생할 요소를 찾아온다)
+        //이벤트가 발생하면 어떤일을 하고싶은지(addeventlistener)
+        btn.addEventListener("click", function(event){
+            console.log("버튼이 클릭됨")
+            console.log(event.target) // 누구한테서 이벤트가 발생하는지 알려준다.
+            count += 1 // 숫자를 증가시켜줌
+            // 이 증가된 숫자를 다시 p요소 안의 숫자로 바꿔준다.
+            // 바꿔줄 요소를 찾아온다.
+            const counter = document.querySelector("#counter")
+            counter.innerText = count
+        })
+    </script>
+</body>
+</html>

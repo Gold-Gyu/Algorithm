@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            padding:20px;;
+            background-color:antiquewhite;
+        }
+
+        p {
+            padding: 20px;
+            background-color: aqua;
+            display: block;
+        }
+
+        span {
+            padding: 20px;
+            background-color: brown;
+            display: block
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        DIV
+        <p>
+            P
+            <span>
+                SPAN
+            </span>
+        </p>
+
+    </div>
+
+
+
+
+
+    <script>
+        // div
+        const d = document.querySelector('div')
+        d.addEventListener("click", function(e){
+            console.log(e.target, "여기는 div태그의 이벤트 함수")
+            // div자식중에 span 태그에서 발생한 이벤트만 따로 처리하고 싶을 때
+            if (e.target.tagName === "SPAN"){
+                // span태그일 때 실행하고 싶은 코드
+                console.log("span태그에서 발생한 이벤트22")
+            }
+            if (e.target.tagName === 'P'){
+                // p태그일 때 실행하고 싶은 코드
+                console.log("P태그에서 발생한 이벤트22")
+            }
+            e.stopImmediatePropagation()
+        })
+        // p
+        // const p = document.querySelector('p')
+        // p.addEventListener("click", function(e){
+        //     console.log(e.target, "여기는 p태그의 이벤트함수")
+        //     e.stopPropagation()
+        // })
+        // // span
+        // const s = document.querySelector('span')
+        // s.addEventListener("click", function(e){
+        //     console.log(e.target, "여기는 span태그의 이벤트함수")
+            
+            
+        //     // 상위 요소로 이벤트 전달 중단
+        //     e.stopPropagation() 
+        //     // 상위 이벤트 뿐만 아니라 이 이벤트 함수말고 다른 함수는 실행하지 않는 명령어 : 지금 이벤트만 발생시키는것
+        //     e.stopImmediatePropagation()
+
+        // })
+
+
+    </script>
+
+</body>
+</html>

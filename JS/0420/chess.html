@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .board {
+            width: 800px;
+            height: 800px;
+            
+        }
+
+        .row {
+            display: flex;
+            width: 800px;
+            height: 100px;
+
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border: 2px solid black;
+        }
+
+        .board .row:nth-child(odd) .box:nth-child(even) {
+            background-color: black;
+        }
+
+        .board .row:nth-child(even) .box:nth-child(odd) {
+            background-color: black;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+        const flame = document.createElement("div")
+        flame.setAttribute("class", "board")
+        document.body.appendChild(flame)
+
+        for (let i = 0; i < 8; i++){
+            let d = document.createElement("div")
+            d.classList.add("row")
+            flame.appendChild(d)
+            for (let j = 0; j < 8; j++){
+                let b = document.createElement('div')
+                b.classList.add("box")
+                d.appendChild(b)
+            }
+        }
+        
+
+        
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input type="text">
+        <button id="add-btn">버튼</button>
+        
+    </form>
+
+    <script>
+        // form태그 가져오기
+        const form = document.querySelector("form")
+        // submit 이벤트 등록
+        // form 태그에는 기본적인 submit이 있기 때문에 기본 이벤트 취소
+        form.addEventListener("submit", function(event){
+            // 기본이벤트취소
+            // event.preventDefault()
+            const txt = document.querySelector("input").value
+            console.log(txt)
+
+
+        })
+    </script>
+</body>
+</html>
