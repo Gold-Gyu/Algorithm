@@ -14,14 +14,13 @@ class TitleSerializer(serializers.ModelSerializer):
         model = Movie
         fields = ("title",)
 
-# 
+# related_name에서 설정한 movies와 어떻게 작용하는건지 궁금합니다.
 class ActorSerializer(serializers.ModelSerializer):
     movies = TitleSerializer(many=True, read_only=True)
-    print(movies)
+    # 모델명이 없음
     class Meta:
         model = Actor
         fields = ("id", "movies", "name",)
-
 
 # 무비의 이름
 class Movie_addserializer(serializers.ModelSerializer):
