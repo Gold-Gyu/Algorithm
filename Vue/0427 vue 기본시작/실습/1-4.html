@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h2>점심메뉴</h2>
+        <button v-on:click="pickLunch">골라</button>
+        <p>{{ lunchMenu }}</p>
+
+        <hr>
+
+        <h2>로또</h2>
+        <button v-on:click="pickNumber">뽑아</button>
+        <p>{{ numbers }}</p>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script>
+        const app = new Vue({
+            el: "#app",
+            data: {
+                lunch : ["쫄면", "콩나물국밥", "중국식육개장"],
+                lunchMenu: "",
+                lottos : null, // 1 ~ 45번까지 숫자가 들어갈 배열
+                numbers : null // 그중에 뽑은 6개 숫자
+            },
+            methods: {
+                pickLunch() {
+                    this.lunchMenu = _.sample(this.lunch)
+                },
+                pickNumber() {
+                    const nums = _.range(1, 46)
+                    this.numbers = _.sampleSize(nums, 6)
+                    this.numbers = _.sortBy(this.numbers) // 정렬하기
+                }
+            }
+
+
+        })
+    </script>
+</body>
+</html>
