@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1> MOVIE DETAIL </h1>
+        <img src="{{ movie.poster_path}}" alt="">
+        <p>제목 : {{ movie.title }}</p>
+        <p> 장르 : 
+        {% for genre in genres %}
+        {{genre.name}}
+        {% endfor %}
+        </p>
+        <p>개봉일 : {{ movie.release_date }}</p>
+        <p>인지도 : {{ movie.popularity }}</p>
+        <p>투표수 : {{ movie.vote_count }}</p>
+        <p>평균 평점 : {{ movie.vote_average }}</p>
+        <p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            줄거리 보기 클릭
+        </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            {% if movie.overview %}
+            <p>{{movie.overview}}</p>
+            {% else %}
+            <p>줄거리 미완성</p>
+            {% endif %}
+        </div>
+        </div>
+
+
+
+{% endblock content %}
+
+
+{% block script %}
+{% endblock script %}

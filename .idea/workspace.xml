@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0425">
-      <change afterPath="$PROJECT_DIR$/백준/Graph/2636 치즈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0427" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -409,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682413090889</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="0427">
+      <created>1682585646797</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1682585646797</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,7 +447,8 @@
     <MESSAGE value="0420" />
     <MESSAGE value="0421" />
     <MESSAGE value="0425" />
-    <option name="LAST_COMMIT_MESSAGE" value="0425" />
+    <MESSAGE value="0427" />
+    <option name="LAST_COMMIT_MESSAGE" value="0427" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,6 +562,31 @@
           <url>file://$PROJECT_DIR$/백준/Graph/12851 숨바꼭질2.py</url>
           <line>20</line>
           <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/백준/Graph/2636 치즈.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/백준/Graph/2636 치즈.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/백준/Graph/2636 치즈.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/백준/Graph/2636 치즈.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/백준/Graph/2636 치즈.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

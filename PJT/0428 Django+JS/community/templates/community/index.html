@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Community</h1>
+  <hr>
+  {% for review in reviews %}
+    <p>작성자 : <a href="{% url 'accounts:profile' review.user.username %}">{{ review.user }}</a></p>
+    <p>글 번호: {{ review.pk }}</p>
+    <p>글 제목: {{ review.title }}</p>
+    <p>글 내용: {{ review.content }}</p>
+    <form class="likes" data-review-id="{{ review.pk }}">
+      {% comment %}  {% endcomment %}
+      {% csrf_token %}
+      {% if user in review.like_users.all %}
+          <input type="submit" value="좋아요 취소" id="like-{{ review.pk }}">
+      {% else %}
+          <input type="submit" value="좋아요" id="like-{{ review.pk }}">
+      {% endif %}
+    </form>
+    <p>
+      <span id="reviewCount-{{review.pk}}">{{ review.like_users.all|length }}</span> 명이 이 글을 좋아합니다.
+    </p>
+    <a href="{% url 'community:detail' review.pk %}">[detail]</a>
+    <hr>
+  {% endfor %}
+{% endblock %}
+
+{% block script %}
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+  const form = document.querySelectorAll(".likes")
+  const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value
+  
+  form.forEach(element => {
+      element.addEventListener('submit', function(event) {
+        event.preventDefault()
+        const reviewId = event.target.dataset.reviewId
+        
+    
+        axios({
+          method: "POST",
+          // ``이거 조심하기 + article_pk 찾아오기
+          url: `http://127.0.0.1:8000/community/${reviewId}/like/`,
+          headers: {'X-CSRFToken': csrftoken},
+        })
+        .then((response) => {
+          console.log(response)
+          console.log(response.data)
+          // like 버튼을 이전에 눌렀는가? 좋아요/ 좋아요 취소를 할지 결정(서버로 부터 좋아요 여부 받기)
+          const isLiked = response.data.is_liked
+          const likeBtn = document.querySelector(`#like-${reviewId}`)
+          const likeCount = document.querySelector(`#reviewCount-${reviewId}`)
+          likeCount.innerText = response.data.count
+          if (isLiked === false) {
+            likeBtn.value = "좋아요"
+          } else {
+            likeBtn.value = "좋아요 취소"
+          }
+
+        })
+      })
+    })
+
+</script>
+
+{% endblock script %}
+

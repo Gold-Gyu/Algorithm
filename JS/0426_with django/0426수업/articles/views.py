@@ -123,6 +123,7 @@ def likes(request, article_pk):
             is_liked = True
         context = {
             'is_liked': is_liked,
+            
         }
         return JsonResponse(context)
     return redirect('accounts:login')
