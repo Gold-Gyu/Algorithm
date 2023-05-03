@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0430">
-      <change afterPath="$PROJECT_DIR$/백준/Graph/경쟁적 전염.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/백준/Implementation/14891 톱니바퀴.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0502" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -403,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682855521605</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="0502">
+      <created>1683036099496</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683036099497</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +442,8 @@
     <MESSAGE value="0425" />
     <MESSAGE value="0427" />
     <MESSAGE value="0430" />
-    <option name="LAST_COMMIT_MESSAGE" value="0430" />
+    <MESSAGE value="0502" />
+    <option name="LAST_COMMIT_MESSAGE" value="0502" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
