@@ -10,8 +10,10 @@
     <div>parentData :{{ parentData }}</div>
     <div>childData : {{childData }}</div>
     <!-- appAaprent로 내려주기 위해서 -->
-    <!-- : 안붙이면 문자열 값 그대로 넘어간다 -->
+    <!-- : 안붙이면 문자열 값 그대로 넘어간다 : 를 붙임으로써 appData안에 들어가있는 숫자를 보내줄 수 있음-->
     <!-- AppParent emit에서 발생시킨 이벤트 명과 같아야한다 == parentChanged-->
+    <!-- parentChanged는 AppParent에서 데이터를 받는 것이고 -->
+    <!-- childChanged는 AppParent에서 (그 전에Appchild에서 입력받은) 값을 받는 것 이벤트 발생-->
     <AppParent :app-data="appData" @parentChanged="parentChanged" @childChanged="childChanged"/>
   </div>
 </template>

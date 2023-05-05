@@ -7,6 +7,8 @@
     <div>appData: {{ appData }}</div>
     <div>parentData: {{parentData}}</div>
     <div>childData: {{childData}}</div>
+
+    <!-- 이 곳에서 일어남 appchild(자식)으로부터 childChanged를 발생시킴 -->
     <AppChild :app-data="appData" 
     :parentData="parentData" 
     @childChanged="childChanged"/>
@@ -38,8 +40,12 @@ export default {
             // parentChanged를 발생시킨다. thisparentData를 가지고
             this.$emit("parentChanged", this.parentData)
         },
+        // 여기서 childData가 Appchild에서 보내줬던 this.childData임
         childChanged(childData) {
+            // this.childData는 appParent 컴포넌트 안에 있는 childData 값
+            // 우측 childData는 AppChild에서 받아온 인자
             this.childData = childData
+            // 그리고 또 그 위 부모인 app에게 데이터를 보낸다.
             this.$emit("childChanged", childData)
         }
     }
