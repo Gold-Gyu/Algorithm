@@ -17,7 +17,9 @@ export default {
   components: {
   },
   created(){
-    // 데이터가 만들어질떄
+    // 앱이 만들어질 때 데이터를 준비할 떄
+    // this.$store.dispatch('loadMessage')
+
   },
   computed: {
     // message() {
@@ -49,6 +51,7 @@ export default {
     //   this.$store.dispatch('changeMessage', newMessage)
     //   this.inputData = null
     // },
+    
     // ...mapActions(["changeMessage"])
     ...mapActions({
       actionsChangeMessage: 'changeMessage',

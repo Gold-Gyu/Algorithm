@@ -5,6 +5,23 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
 	state: {
+		optionList: [
+			{
+				type: "샷",
+				price: 500,
+				count: 0,
+			},
+			{
+				type: "바닐라 시럽",
+				price: 300,
+				count: 0,
+			},
+			{
+				type: "카라멜 시럽",
+				price: 1000,
+				count: 0,
+			},
+		],
 		orderList: [],
 		menuList: [
 			{
@@ -58,6 +75,19 @@ export default new Vuex.Store({
 		},
 	},
 	mutations: {
+		updateOptionList(state, county) {
+			
+            state.optionList = state.optionList.map((option) => {
+                if (option.type == county.type && county.flag === 0) {
+                    option.count ++;
+                } else if (option.type == county.type && county.flag === 1 && option.count > 0) {
+                    option.count --;
+                }
+                return option;
+            });
+        },
+
+
 		addOrder(state) {
 			state.orderList.push({
 				menu: state.selectedMenu,
@@ -65,6 +95,8 @@ export default new Vuex.Store({
 			});
 		},
 		updateMenuList(state, selectedMenu) {
+			// console.log(state)
+			console.log(state.menuList)
 			state.menuList = state.menuList.map((menu) => {
 				if (menu.title === selectedMenu.title) {
 					menu.selected = true;
@@ -88,6 +120,10 @@ export default new Vuex.Store({
 		},
 	},
 	actions: {
+		selectOption(context, county) {
+
+			context.commit("updateOptionList", county)
+		},
 		selectMenu(context, selectedMenu) {
 			context.commit("updateMenuList", selectedMenu);
 		},
