@@ -22,5 +22,7 @@ export default {
 </script>
 
 <style>
-
+    .is-completed {
+        text-decoration: line-through;
+    }
 </style>
