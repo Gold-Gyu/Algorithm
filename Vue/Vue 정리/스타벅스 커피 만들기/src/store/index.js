@@ -62,6 +62,7 @@ export default new Vuex.Store({
 		],
 		selectedMenu: {},
 		selectedSize: {},
+		selectedOption: {},
 	},
 	getters: {
 		totalOrderCount(state) {
@@ -75,12 +76,12 @@ export default new Vuex.Store({
 		},
 	},
 	mutations: {
-		updateOptionList(state, county) {
-			
+		updateOptionList(state, selectedOption) {
+			console.log(selectedOption)
             state.optionList = state.optionList.map((option) => {
-                if (option.type == county.type && county.flag === 0) {
+                if (option.type == selectedOption.type && selectedOption.flag === 0) {
                     option.count ++;
-                } else if (option.type == county.type && county.flag === 1 && option.count > 0) {
+                } else if (option.type == selectedOption.type && selectedOption.flag === 1 && option.count > 0) {
                     option.count --;
                 }
                 return option;
@@ -89,15 +90,22 @@ export default new Vuex.Store({
 
 
 		addOrder(state) {
+			
 			state.orderList.push({
 				menu: state.selectedMenu,
 				size: state.selectedSize,
-			});
+				option: state.selectedOption,
+			})
+	
+			
 		},
+
 		updateMenuList(state, selectedMenu) {
-			// console.log(state)
-			console.log(state.menuList)
+			// console.log(selectedMenu)
+			// console.log(state.menuList)
 			state.menuList = state.menuList.map((menu) => {
+				// console.log(menu.title)
+				// console.log(selectedMenu.title)
 				if (menu.title === selectedMenu.title) {
 					menu.selected = true;
 					state.selectedMenu = selectedMenu;

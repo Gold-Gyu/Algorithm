@@ -22,7 +22,7 @@
         <span>성함 : {{selectedTeacher}}</span>
         <div class="hr-b"></div>
         <h3>예약 현황</h3>
-        {{this.selectedTimes}}
+        {{selectedTimes}}
         <div class="hr-b"></div>
       </div>
     </div>
@@ -50,7 +50,9 @@ export default {
     selectTime(time) {
       if (this.selectedTimes.includes(time)) {
         const t_idx = this.selectedTimes.indexOf(time)
+        console.log(t_idx)
         this.selectedTimes.splice(t_idx, 1)
+        console.log(this.selectedTimes.splice(t_idx, 1))
         return
       } else {
         if (this.selectedTimes.length === 5) {
@@ -58,6 +60,7 @@ export default {
           return
         }
         this.selectedTimes.push(time)
+        console.log(this.selectedTimes)
       }
     },
     isSelected(time) {

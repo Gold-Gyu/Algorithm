@@ -7,7 +7,11 @@
         <p>사이즈: {{ order.size.name }}</p>
       </div>
     </div>
-    <div>가격: {{ totalPrice }}원</div>
+    <div>
+      <p>가격: {{ totalPrice }}원</p>
+      <br>
+      <p></p>
+    </div>
   </li>
 </template>
 
