@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0505">
-      <change afterPath="$PROJECT_DIR$/백준/Graph/11724 연결 요소의 개수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/Vue 정리/vue 4-2 실습/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/Vue 정리/vue 4-2 실습/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/Vue 정리/스타벅스 커피 만들기/src/components/OptionList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/Vue 정리/스타벅스 커피 만들기/src/components/OptionList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/Vue 정리/스타벅스 커피 만들기/src/components/OrderListItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/Vue 정리/스타벅스 커피 만들기/src/components/OrderListItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue/Vue 정리/스타벅스 커피 만들기/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/Vue 정리/스타벅스 커피 만들기/src/store/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0505" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
