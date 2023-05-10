@@ -16,6 +16,7 @@ def bingbing(n, d):
         lst[0] = temp
         arr[n - 1] = lst
     else:
+        # 좌로 이
         temp = arr[n - 1][0]
         for x in range(7):
             lst[x] = arr[n - 1][x + 1]
@@ -122,4 +123,3 @@ for ans in range(4):
 
 
 print(answer)
-
