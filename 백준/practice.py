@@ -5,30 +5,7 @@ from collections import deque
 
 def is_valid(nr, nc):
     return 0 <= nr < n and 0 <= nc < m and arr[nr][nc] != -1
-
-
-def wind1(x, y):
-    v = [[0] * m for _ in range(n)]
-    d = 0
-
-    while True:
-
-        nx = x + dr[d]
-        ny = y + dc[d]
-        if 0 <= nx < n and 0 <= ny < m and arr[nx][ny] == -1:
-            return
-        elif 0 <= nx < n and 0 <= ny < m:
-            v[nx][ny] = arr[nx][ny]
-            if arr[x][y] == -1:
-                arr[nx][ny] = 0
-            else:
-                arr[nx][ny] = v[x][y]
-            x = nx
-            y = ny
-        else:
-            d -= 1
-            if d == -1:
-                d = 3
+# dkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdkdk
 
 
 def wind2(x, y):
