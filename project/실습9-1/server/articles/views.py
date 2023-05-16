@@ -27,5 +27,5 @@ def create(request):
         print(request.user)
         if serializer.is_valid(raise_exception=True):
             # serializer.save()
-            serializer.save(author=request.user)
+            serializer.save(user=request.user)
             return Response(serializer.data, status=status.HTTP_201_CREATED)

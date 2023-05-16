@@ -24,6 +24,7 @@ export default new Vuex.Store({
   },
   mutations: {
     GET_ARTICLE(state, articles) {
+      console.log(state)
       state.articles = articles
     },
     SAVE_TOKEN(state, token) {

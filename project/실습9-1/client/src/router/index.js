@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginView from '@/views/LoginView.vue'
 import SignupView from '@/views/SignupView.vue'
-import ClientView from '@/views/ClientView.vue'
+import CreateView from '@/views/CreateView.vue'
 import ArticleListView from '@/views/ArticleListView.vue'
 
 Vue.use(VueRouter)
@@ -40,7 +40,7 @@ const routes = [
   {
     path: '/create',
     name: 'create',
-    component: ClientView
+    component: CreateView
   },
 ]
 

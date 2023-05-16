@@ -23,7 +23,7 @@
     </b-col>
     </b-row>
 
-    <b-button variant="success" @click="create">작성하기</b-button>
+    <b-button variant="success" @click="create_article">작성하기</b-button>
   </b-container>
 </template>
 
@@ -33,17 +33,37 @@ import axios from 'axios'
 
 export default {
     name : "ClientView",
+    computed : {
+        isLogin() {
+            return this.$store.getters.isLogin
+        }
+    },
+    created() {
+        this.getArticles()
+    },
     data() {
         return {
             title : "",
             content : ""
         }
     },
-    method : {
-        create() {
+    methods : {
+      getArticles() {
+
+            
+
+        },
+        create_article() {
             const title = this.title
             const content = this.content
+            if (this.isLogin) {
+                this.$store.dispatch('getArticles')
+            }
 
+            else {
+                alert('로그인이 필요한 페이지')
+                this.$router.push({ name : 'login'})
+            }
             if (!title) {
                 alert('제목 입력해주세요')
                 return
@@ -58,13 +78,15 @@ export default {
                 headers : {
                     Authorization : `Bearer ${this.$store.state.token}` 
                 }
+                })
                 .then(() => {
-                    this.$router.push({name : 'ArticleListView'})
+                    this.$router.push({name : 'ArticleView'})
                 })
                 .catch((err) => {
                     console.log(err)
                 })
-            })
+            
+           
     }
 }
 }

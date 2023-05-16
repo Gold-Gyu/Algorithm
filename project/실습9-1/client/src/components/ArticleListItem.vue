@@ -1,5 +1,6 @@
 <template>
   <div>
+    <hr>
     <h1>{{ article.title }}</h1>
     <h2>{{ article.content }}</h2>
   </div>
