@@ -4,10 +4,17 @@
 
     <b-form  @submit.stop.prevent>
       <label for="feedback-user">User ID</label>
-      <b-form-input v-model="username" :state="id_check" id="feedback-user"></b-form-input>
-      <b-form-invalid-feedback :state="id_check">
+      <b-form-input
+       v-model="username" 
+       :state="id_check" 
+       id="feedback-user"
+       ></b-form-input>
+
+      <b-form-invalid-feedback 
+      :state="id_check">
         Your user ID must be 5-12 characters long.
       </b-form-invalid-feedback>
+      
       <b-form-valid-feedback :state="id_check">
         Looks Good.
       </b-form-valid-feedback>
