@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>Welcome to NewWorld</h1>
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
