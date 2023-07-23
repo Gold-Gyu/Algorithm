@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0514">
-      <change afterPath="$PROJECT_DIR$/백준/Graph/14500 테트로미노.py" afterDir="false" />
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0715">
+      <change afterPath="$PROJECT_DIR$/백준/Implementation/21610 마법사 상어와 비바라기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/Implementation/컨베이어 벨트 위의 로봇.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/Graph/14500 테트로미노.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Implementation/14500 테트로미노.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +49,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/백준/Implementation" />
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA\A형 대비" />
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\백준" />
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA" />
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\그래프\MST" />
-      <recent name="C:\Users\SSAFY\Desktop\victor_repo\SWEA\백트래킹(순열,조합,부분집합,재귀)" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.14500 테트로미노">
-    <configuration name="11724 연결 요소의 개수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.컨베이어 벨트 위의 로봇">
+    <configuration name="컨베이어 벨트 위의 로봇" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,11 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/Graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/Implementation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Graph/11724 연결 요소의 개수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Implementation/컨베이어 벨트 위의 로봇.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +111,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Graph/14500 테트로미노.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Implementation/14500 테트로미노.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14891 톱니바퀴" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="21610 마법사 상어와 비바라기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,7 +132,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Implementation/14891 톱니바퀴.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Implementation/21610 마법사 상어와 비바라기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.컨베이어 벨트 위의 로봇" />
+        <item itemvalue="Python.21610 마법사 상어와 비바라기" />
         <item itemvalue="Python.14500 테트로미노" />
         <item itemvalue="Python.1182 부분수열의 합" />
         <item itemvalue="Python.7562 나이트의 이동" />
-        <item itemvalue="Python.14891 톱니바퀴" />
-        <item itemvalue="Python.11724 연결 요소의 개수" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1684064999976</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="0715">
+      <option name="closed" value="true" />
+      <created>1689404404783</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1689404404783</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,7 +417,8 @@
     <MESSAGE value="0505" />
     <MESSAGE value="0513" />
     <MESSAGE value="0514" />
-    <option name="LAST_COMMIT_MESSAGE" value="0514" />
+    <MESSAGE value="0715" />
+    <option name="LAST_COMMIT_MESSAGE" value="0715" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
