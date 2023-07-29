@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0726">
-      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/4008 숫자만들기.py" afterDir="false" />
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0727">
+      <change afterPath="$PROJECT_DIR$/백준/Implementation/14500 테트로미노 빠른 버젼.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/백준/Implementation/17140 이차원배열과 연산.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/백준/Implementation/14891 톱니바퀴.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Implementation/14891 톱니바퀴.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/백준/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -55,28 +58,7 @@
       <recent name="C:\Users\SSAFY\Desktop\victor_repo\그래프\MST" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.4008 숫자만들기">
-    <configuration name="13022 늑대의 올바른 단더" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="victor_repo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/Combinatorics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Combinatorics/13022 늑대의 올바른 단더.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.practice">
     <configuration name="14888 연산자 끼워넣기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14889 스타트와 링크" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="14891 톱니바퀴" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="victor_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,11 +88,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/Combinatorics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/Implementation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Combinatorics/14889 스타트와 링크.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Implementation/14891 톱니바퀴.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17140 이차원배열과 연산" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="victor_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/백준/Implementation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/백준/Implementation/17140 이차원배열과 연산.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.practice" />
+        <item itemvalue="Python.14891 톱니바퀴" />
+        <item itemvalue="Python.17140 이차원배열과 연산" />
         <item itemvalue="Python.4008 숫자만들기" />
         <item itemvalue="Python.14888 연산자 끼워넣기" />
-        <item itemvalue="Python.practice" />
-        <item itemvalue="Python.13022 늑대의 올바른 단더" />
-        <item itemvalue="Python.14889 스타트와 링크" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690379307654</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="0727">
+      <option name="closed" value="true" />
+      <created>1690456921191</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1690456921191</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="0330" />
     <MESSAGE value="0403" />
     <MESSAGE value="0404" />
     <MESSAGE value="0405" />
@@ -465,7 +475,8 @@
     <MESSAGE value="0724" />
     <MESSAGE value="0725" />
     <MESSAGE value="0726" />
-    <option name="LAST_COMMIT_MESSAGE" value="0726" />
+    <MESSAGE value="0727" />
+    <option name="LAST_COMMIT_MESSAGE" value="0727" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -677,22 +688,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SWEA/A형 대비/4008 숫자만들기.py</url>
-          <line>10</line>
+          <line>9</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SWEA/A형 대비/4008 숫자만들기.py</url>
-          <line>12</line>
+          <line>11</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SWEA/A형 대비/4008 숫자만들기.py</url>
-          <line>14</line>
+          <line>13</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SWEA/A형 대비/4008 숫자만들기.py</url>
-          <line>16</line>
+          <line>15</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
       </breakpoints>
