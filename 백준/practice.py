@@ -1,7 +1,8 @@
 n = 4
 arr = [[0] * 8] + [list(map(int,input())) for _ in range(n)]
 k = int(input())
-top = [0] * (n+1)
+
+top = [0] * (n+1)   # 12시 위치 값₩를 알려주는 배열
 
 for tc in range(k):
     idx, direction = map(int, input().split())
