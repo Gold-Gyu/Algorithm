@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0729">
-      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/보급로.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/A형 대비/보급로.txt" afterDir="false" />
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0731">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/Implementation/14891 톱니바퀴.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/Implementation/14891 톱니바퀴.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/백준/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/백준/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -444,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690628941075</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="0731">
+      <option name="closed" value="true" />
+      <created>1690729317267</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1690729317267</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -459,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="0404" />
     <MESSAGE value="0405" />
     <MESSAGE value="0406" />
     <MESSAGE value="DB + Django" />
@@ -484,7 +487,8 @@
     <MESSAGE value="0726" />
     <MESSAGE value="0727" />
     <MESSAGE value="0729" />
-    <option name="LAST_COMMIT_MESSAGE" value="0729" />
+    <MESSAGE value="0731" />
+    <option name="LAST_COMMIT_MESSAGE" value="0731" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

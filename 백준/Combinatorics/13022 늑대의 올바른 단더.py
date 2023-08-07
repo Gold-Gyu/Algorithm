@@ -2,6 +2,7 @@ n = input()
 lst = [0, 0, 0, 0]
 # 각 문자의 개수가 n개가 나란히 나오면 O
 # 문자 두개를 이은것도 올바른단어
+# 굿굿
 size = len(n)
 flag = 0
 for i in range(size):
