@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="0731">
+    <list default="true" id="7f4d68f2-76a1-4bcd-88f6-d313584f2f27" name="Default Changelist" comment="굿">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -448,7 +448,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690729317267</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="굿">
+      <option name="closed" value="true" />
+      <created>1691420041241</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1691420041241</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="0405" />
     <MESSAGE value="0406" />
     <MESSAGE value="DB + Django" />
     <MESSAGE value="0410" />
@@ -488,7 +495,8 @@
     <MESSAGE value="0727" />
     <MESSAGE value="0729" />
     <MESSAGE value="0731" />
-    <option name="LAST_COMMIT_MESSAGE" value="0731" />
+    <MESSAGE value="굿" />
+    <option name="LAST_COMMIT_MESSAGE" value="굿" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -680,22 +688,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/Combinatorics/13022 늑대의 올바른 단더.py</url>
-          <line>24</line>
+          <line>25</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/Combinatorics/13022 늑대의 올바른 단더.py</url>
-          <line>19</line>
+          <line>20</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/Combinatorics/13022 늑대의 올바른 단더.py</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/백준/Combinatorics/13022 늑대의 올바른 단더.py</url>
-          <line>7</line>
+          <line>8</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
