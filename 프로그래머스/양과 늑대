@@ -1,0 +1,47 @@
+from collections import deque
+# 탐색 구현
+
+def solution(info, edges):
+    # 트리 구축 함수
+
+    def build_tree(info, edges):
+        # 노드의 개수만큼 생성한다.
+        tree =[[] for _ in range(len(info))]
+        # tree 인덱스 => 노드의 번호, tree 인덱스(부모노드)에 해당하는 값 => 자식 노드
+        for edge in edges:
+            tree[edge[0]].append(edge[1])
+        return tree
+    tree = build_tree(info, edges)
+
+    # 최대 양의 개수 저장할 변수
+    max_sheep = 0
+
+    # BFS를 위한 큐 생성 / 초기 상태 설정
+    # (현재위치), 양의 수, 늑대의 수, 방문한 노드 집합
+    q = deque([(0, 1, 0, set())])
+
+    # BFS 실행
+
+    while q:
+        # visited는 현재노드에서 방문할 수 있는 노드의 집합
+        # 즉, 방문한 노드들 기준으로 다음에 방문할 수 있는 노드들 집합
+        # visited를 순회하며 다음 방문 장소로 이동
+        current, sheep_count, wolf_count, visited = q.popleft()
+
+        max_sheep = max(max_sheep, sheep_count)
+        visited.update(tree[current])
+        print(q)
+
+
+        for next_node in visited:
+            if info[next_node]:
+                if wolf_count + 1 != sheep_count:
+                    # 방문했으니까 방문한 노드는 visited에서 뺴주기
+                    # 다음 노드를 미리 방문 목록에서 빼줌으로써 방문한 노드를 다시 방문하지 않도록 조치
+                    q.append((next_node, sheep_count, wolf_count + 1, visited - {next_node}))
+            else:
+                q.append((next_node, sheep_count + 1, wolf_count, visited - {next_node}))
+
+
+
+    return max_sheep
